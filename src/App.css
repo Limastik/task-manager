@@ -1,0 +1,55 @@
+.auth-container{
+    margin-top: 100px;
+}
+.auth-bg {
+    display: block;
+    padding: 15px;
+}
+.auth-bg input {
+    margin: 10px 0;
+}
+.auth-bg button {
+    margin-right: 15px;
+}
+.form-control{
+    background-color: white;
+}
+.hidden {
+    display: none;
+}
+.add-task-panel {
+    background-color: white;
+    text-align: right;
+    margin-top: 20px;
+}
+.add-task-panel button {
+    margin-top: 15px;
+}
+.alert-dismissible {
+    padding-right: 15px;
+}
+.rotate-img {
+    display: inline-block;
+    position: absolute;
+    margin-top: 10px;
+}
+.rotate-img svg {
+    height: 2em;
+}
+.rotate-forever {
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
