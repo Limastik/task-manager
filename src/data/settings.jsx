@@ -1,1 +1,1 @@
-export const api_link = "http://testserv/api/";
+export const api_link = "http://limastik-task-manager.000.pe/api/";
