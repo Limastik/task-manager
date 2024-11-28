@@ -1,8 +1,4 @@
 <?php
-header("Access-Control-Allow-Origin: http://localhost:5173");
-header("Access-Control-Allow-Methods: POST, GET, OPTIONS");
-header("Access-Control-Allow-Headers: Content-Type, Authorization");
-
 $host = 'localhost';        // Адреса сервера бази даних
 $dbname = 'task_list';      // Ім'я бази даних
 $username = 'root';         // Ім'я користувача бази даних

@@ -33,7 +33,7 @@ function TaskManager({ userId }) {
         setTasks([...tasks, newTask]);
 
         // 2. Відправляємо запит на сервер для збереження
-        axios.post(api_link +  + 'add_task.php', {
+        axios.post(api_link + 'add_task.php', {
             user_id: userId,
             task_text: taskText,
         })
